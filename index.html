@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Web Site</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="Pie.css" />
+  </head>
+  <body>
+    <!-- LOGOS Y MENUS -->
+    <nav class="top-header">
+      <a href="">
+        <img src="imagenes/logo.webp" alt="" class="logotipo" />
+      </a>
+      <ul class="menu-horizontal">
+        <li>
+          <a href="">Créditos</a>
+        </li>
+        <li>
+          <a href="">Cuentas</a>
+          <ul class="menu-vertical">
+            <li>
+              <a href="">Cuenta Sueldo</a>
+            </li>
+            <li>
+              <a href="">Club Emprendedor</a>
+            </li>
+            <li>
+              <a href="">Yape y Plin</a>
+            </li>
+            <li>
+              <a href="">Depositos</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="">Seguros</a>
+        </li>
+        <li>
+          <a href="#contactanos">Contactos</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- SECCION CREDITOS -->
+    <section class="seccion-creditos">
+      <div class="contenedor-general-creditos">
+        <div class="contenedor-creditos-texto">
+          <h2>Seccion de creditos</h2>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in the 1960s
+            with the release of Letraset sheets containing Lorem Ipsum passages,
+            and more recently with desktop publishing software like Aldus
+            PageMaker including versions of Lorem Ipsum.
+          </p>
+        </div>
+        <div class="contenedor-creditos-img">
+          <img src="imagenes/imagen1.jpeg" alt="banner" />
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCION SEGUROS -->
+    <section class="seccion-seguros">
+      <div class="contenedor-general-seguros">
+        <div class="contenedor-seguros-texto">
+          <h2>Seccion Seguros</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipiscing elit eget risus,
+            sociis nostra rhoncus tempus non mattis eleifend suspendisse, ac
+            sollicitudin quis orci erat convallis tempor egestas. Arcu aliquam
+            facilisi eros conubia pulvinar condimentum et, a commodo tempor
+            nostra torquent venenatis eu at, curae etiam nibh sociosqu dictum
+            auctor. Cubilia quam enim ante erat molestie laoreet taciti conubia
+            quisque, neque dapibus metus fames imperdiet mauris nullam magna,
+            magnis proin luctus vitae nisl suscipit malesuada himenaeos.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipiscing elit eget risus,
+            sociis nostra rhoncus tempus non mattis eleifend suspendisse, ac
+            sollicitudin quis orci erat convallis tempor egestas. Arcu aliquam
+            facilisi eros conubia pulvinar condimentum et, a commodo tempor
+            nostra torquent venenatis eu at, curae etiam nibh sociosqu dictum
+            auctor. Cubilia quam enim ante erat molestie laoreet taciti conubia
+            quisque, neque dapibus metus fames imperdiet mauris nullam magna,
+            magnis proin luctus vitae nisl suscipit malesuada himenaeos.
+          </p>
+          <button>Leer mas...</button>
+        </div>
+        <div class="contenedor-seguros-video">
+          <iframe
+            width="1318"
+            height="741"
+            src="https://www.youtube.com/embed/YQ-qToZUybM?list=RD0EVVKs6DQLo"
+            title="The Weeknd, Ariana Grande - Die For You (Remix / Lyric Video)"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCION FORMULARIO -->
+    <section class="seccion-formulario" id="contactanos">
+      <div class="contenedor-general-formulario">
+        <h2>Formulario de registro</h2>
+        <p>Complete todos sus datos y sus preferencias</p>
+        <form class="formulario">
+          <div class="campo">
+            <label for="nombre">Nombre completo</label>
+            <input
+              type="text"
+              id="nombre"
+              name="nombre"
+              placeholder="Ingrese su nombre"
+            />
+          </div>
+          <div class="campo">
+            <label for="pais">Pais</label>
+            <select name="pais" id="pais">
+              <option value="">Seleccione un pais</option>
+              <option value="peru">Perú</option>
+              <option value="argentina">Argentina</option>
+              <option value="brasil">Brasil</option>
+              <option value="mexico">Mexico</option>
+            </select>
+          </div>
+          <div class="campo">
+            <label>Intereses</label>
+            <ul class="lista-checkbox">
+              <li>
+                <label
+                  ><input type="checkbox" name="intereses" value="tecnologia" />
+                  Tecnologia</label
+                >
+              </li>
+              <li>
+                <label
+                  ><input type="checkbox" name="intereses" value="educacion" />
+                  Educacion</label
+                >
+              </li>
+              <li>
+                <label
+                  ><input type="checkbox" name="intereses" value="idiomas" />
+                  Idiomas</label
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="campo">
+            <label for="">Genero</label>
+            <ul class="lista-radio">
+              <li>
+                <label
+                  ><input type="radio" name="genero" value="masculino" />
+                  Masculino</label
+                >
+              </li>
+              <li>
+                <label
+                  ><input type="radio" name="genero" value="femenino" />
+                  Femenino</label
+                >
+              </li>
+            </ul>
+          </div>
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- PIE DE PAGINA -->
+    <!-- <section class="seccion-footer">
+      <div class="contenedor-general-footer">
+        <div class="footer-info">
+          <h3>Acerca de nosotros</h3>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry
+          </p>
+          <p>&copy; 2025 Todos los derechos reservados</p>
+        </div>
+        <div class="footer-redes">
+          <h3>Nuestras redes</h3>
+          <ul class="lista-redes">
+            <li><a href="">Facebook</a></li>
+            <li><a href="">Instagram</a></li>
+            <li><a href="">Telegram</a></li>
+            <li><a href="">Tiktok</a></li>
+          </ul>
+        </div>
+        <div class="footer-politicas">
+          <h3>Proteccion de datos</h3>
+          <ul class="lista-redes">
+            <li><a href="">Ley de proteccion de datos</a></li>
+            <li><a href="">Politicas</a></li>
+            <li><a href="">Normas</a></li>
+            <li><a href="">Reglamento</a></li>
+          </ul>
+        </div>
+      </div>
+    </section> -->
+    <section id="footer">
+      <footer class="footer">
+        <div class="footer-container">
+          <!-- Logo y nombre de sitio -->
+          <div class="footer-brand">
+            <img src="imagenes/logo.webp" alt="Logo" class="footer-logo" />
+            <p>SENATI</p>
+            <small>© 2025 Todos los derechos reservados</small>
+          </div>
+
+          <!-- Enlaces legales -->
+          <div class="footer-links">
+            <h4>Legal</h4>
+            <a href="/Documentos/3.politica-privacidad.pdf"
+              >Política de Privacidad</a
+            >
+            <!-- Dentro de href llama a un documento pdf con la poltica-->
+            <a href="#">Términos y Condiciones</a>
+            <!-- Dentro de href llama a un documento pdf con los terminos y condiciones-->
+            <a href="/Documentos/LeyProteccionDatos.pdf">Protección de Datos</a>
+          </div>
+
+          <!-- Redes sociales con íconos personalizados -->
+          <div class="footer-social">
+            <h4>Síguenos</h4>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145802.png"
+                alt="Facebook"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145812.png"
+                alt="Instagram"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145807.png"
+                alt="LinkedIn"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145806.png"
+                alt="Twitter"
+                class="social-icon"
+            /></a>
+          </div>
+        </div>
+      </footer>
+    </section>
+  </body>
+</html>
